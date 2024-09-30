@@ -1,1 +1,10 @@
-GET http://localhost:3000/api
+GET http://localhost:3000/api/redis
+
+###
+
+POST http://localhost:3000/api/redis
+Content-Type: application/json
+
+{
+  "newValue": "value3"
+}
