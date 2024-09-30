@@ -1,4 +1,11 @@
-# template--nx-nestjs--basic
+# showcase--nx-nestjs--liaoliaots-nestjs-redis
+
+## Showcase
+
+1. Set up by copying `.env.template` as `.env`
+2. Start the infra using `./scripts/docker-infra-run.sh`
+3. Run the app using `pnpm exec nx run app-nest-1:serve`
+4. Enable "REST Client" extension in VSCode and run the requests in `./api/requests.http` file
 
 ## Local development
 
